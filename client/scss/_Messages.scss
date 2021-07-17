@@ -1,0 +1,36 @@
+#messages-box {
+	background-color: #fff;
+	margin: 2rem;
+	padding: 1rem;
+	border-radius: 10px;
+	height: 70%;
+	overflow-y: scroll;
+	max-width: 1200px;
+	position: relative;
+	left: 50%;
+	transform: translate(-50%, 0);
+	transition: 0.5s;
+	
+    #end{
+        font-size: 1rem;
+        text-align: center;
+        margin-top: 1rem;
+    }
+
+	@media (max-width: 1199px) {
+		left: 0;
+		transform: translate(0);
+	}
+
+	@media (max-width: 600px) {
+		height: 50%;
+	}
+
+	@media (max-height: 700px) {
+		height: 30%;
+	}
+
+	@media (max-height: 800px) {
+		height: 40%;
+	}
+}

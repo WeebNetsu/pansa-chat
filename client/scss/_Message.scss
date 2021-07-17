@@ -1,0 +1,19 @@
+.message {
+	font-family: sans-serif;
+    word-wrap: break-word;
+    margin-bottom: 0.7rem;
+
+	.username {
+        font-weight: bold;
+	}
+
+    @media (max-width: 350px){
+		.username {
+            font-weight: bold;
+        }
+    
+        .message-text{
+            padding-left: 0rem;
+        }
+	}
+}
